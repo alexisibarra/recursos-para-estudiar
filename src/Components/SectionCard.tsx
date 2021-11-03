@@ -47,7 +47,7 @@ const SectionCard: FC<ISectionCardProps> = (props) => {
         </CardContent>
       </CardActionArea>
 
-      {linksMetadata && (
+      {linksMetadata && linksMetadata.length > 0 && (
         <CardActions>
           <Grid container spacing={4}>
             <Grid item xs={12}>
@@ -58,7 +58,7 @@ const SectionCard: FC<ISectionCardProps> = (props) => {
 
                 {linksMetadata.map(({ title, url }) => (
                   <ListItem disablePadding>
-                    <ListItemButton color="red" component="a" href={url}>
+                    <ListItemButton target="blank" component="a" href={url}>
                       <ListItemIcon>
                         <InsertLinkIcon />
                       </ListItemIcon>

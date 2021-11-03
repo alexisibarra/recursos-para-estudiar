@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/recursos-para-estudiar/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/recursos-para-estudiar/static/js/main.1799ca99.chunk.js",
+    "main.js.map": "/recursos-para-estudiar/static/js/main.1799ca99.chunk.js.map",
+    "runtime-main.js": "/recursos-para-estudiar/static/js/runtime-main.713cddc1.js",
+    "runtime-main.js.map": "/recursos-para-estudiar/static/js/runtime-main.713cddc1.js.map",
+    "static/js/2.fc18bbd8.chunk.js": "/recursos-para-estudiar/static/js/2.fc18bbd8.chunk.js",
+    "static/js/2.fc18bbd8.chunk.js.map": "/recursos-para-estudiar/static/js/2.fc18bbd8.chunk.js.map",
+    "static/js/3.e3458616.chunk.js": "/recursos-para-estudiar/static/js/3.e3458616.chunk.js",
+    "static/js/3.e3458616.chunk.js.map": "/recursos-para-estudiar/static/js/3.e3458616.chunk.js.map",
+    "index.html": "/recursos-para-estudiar/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/recursos-para-estudiar/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.fc18bbd8.chunk.js.LICENSE.txt": "/recursos-para-estudiar/static/js/2.fc18bbd8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.713cddc1.js",
+    "static/js/2.fc18bbd8.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.1799ca99.chunk.js"
+  ]
+}

@@ -39,7 +39,7 @@ const App: FC = () => {
         changetab={changetab}
       />
 
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{ marginBottom: "20px" }}>
         {activeTab === 0 && <HistoriaDeChile />}
 
         {activeTab === 1 && <p>Historia Universal</p>}

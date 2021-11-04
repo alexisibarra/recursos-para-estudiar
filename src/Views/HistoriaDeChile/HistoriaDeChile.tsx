@@ -1,29 +1,10 @@
 import React, { FC } from "react";
 
-import { Grid, Typography } from "@mui/material";
-
-import { cardsMetadata } from "./Utils/linksMetadata";
-
-import SectionCard from "../../Components/SectionCard";
+import { cardsMetadata } from "./Utils/cardsMetadata";
+import Section from "../../Components/Section";
 
 const HistoriaDeChile: FC = () => (
-  <Grid container spacing={4} sx={{ marginTop: 0 }}>
-    <Grid item xs={12}>
-      <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
-        Historia de Chile
-      </Typography>
-    </Grid>
-
-    {cardsMetadata.map(({ title, links, content }) =>
-      title ? (
-        <Grid item xs={12} md={6}>
-          <SectionCard title={title} content={content} linksMetadata={links} />
-        </Grid>
-      ) : (
-        <></>
-      )
-    )}
-  </Grid>
+  <Section title="Historia de Chile" cardsMetadata={cardsMetadata} />
 );
 
 export default HistoriaDeChile;

@@ -1,13 +1,4 @@
-export interface ILinkMetadata {
-  url: string;
-  title: string;
-}
-
-interface ICardMetadata {
-  title: string;
-  links?: ILinkMetadata[];
-  content?: string[];
-}
+import { ICardMetadata } from "Views/Utils/ICardMetadata";
 
 export const cardsMetadata: ICardMetadata[] = [
   {

@@ -2,6 +2,7 @@ import React, { FC, KeyboardEvent, MouseEvent, useState } from "react";
 
 import { Container } from "@mui/material";
 
+import HistoriaUniversal from "Views/HistoriaUniversal/HistoriaUniversal";
 import HistoriaDeChile from "./Views/HistoriaDeChile/HistoriaDeChile";
 import CustomDrawer from "./Components/CustomDrawer";
 import CustomAppBar from "./Components/CustomAppBar";
@@ -42,7 +43,7 @@ const App: FC = () => {
       <Container maxWidth="lg" sx={{ marginBottom: "20px" }}>
         {activeTab === 0 && <HistoriaDeChile />}
 
-        {activeTab === 1 && <p>Historia Universal</p>}
+        {activeTab === 1 && <HistoriaUniversal />}
 
         {activeTab === 2 && <p>Ciencias Naturales</p>}
       </Container>

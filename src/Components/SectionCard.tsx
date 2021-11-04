@@ -15,7 +15,7 @@ import {
 } from "@mui/material";
 import InsertLinkIcon from "@mui/icons-material/InsertLink";
 
-import { ILinkMetadata } from "../Views/HistoriaDeChile/Utils/linksMetadata";
+import { ILinkMetadata } from "Views/Utils/ILinkMetadata";
 
 interface ISectionCardProps {
   title: string;
